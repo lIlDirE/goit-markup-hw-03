@@ -5,6 +5,14 @@
 	--four-text-color:  #F5F4FA;
   }
 
+html {
+	box-sizing:border-box;
+}
+
+*, *::before, *::after{
+	box-sizing:inherit;
+}
+
 a {
 	text-decoration: none;
 }
@@ -18,7 +26,15 @@ body footer{
 	color: var(--first-text-color);
 }
 
+
   /* Site nav */
+.header-container{
+	border: 5px solid tomato;
+	padding: 80px;
+	border: 2px;
+	
+  }
+
 .logo-header {
 	font-family: 'Raleway';
 	font-weight: 700;
@@ -26,6 +42,7 @@ body footer{
 	line-height: 31px;
 	letter-spacing: 0.03em;
 	color: var(--first-text-color);
+	padding: 24px 93px 25px 215px;
 }
 
 .logo-web {
