@@ -5,20 +5,14 @@
 	--four-text-color:  #F5F4FA;
   }
 
-html {
-	box-sizing:border-box;
-}
-
-*, *::before, *::after{
-	box-sizing:inherit;
-}
-
 a {
 	text-decoration: none;
 }
 
 ul {
 	list-style:none;
+	padding: 0;
+	margin: 0;
 }
 
 body footer{
@@ -26,14 +20,26 @@ body footer{
 	color: var(--first-text-color);
 }
 
-
+.container{
+	width: 1600px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	outline: 1px solid black;
+}
   /* Site nav */
+
 .header-container{
-	border: 5px solid tomato;
-	padding: 80px;
-	border: 2px;
-	
-  }
+	display: flex;
+	align-items: center;
+}
+
+.site-nav{
+	margin: 0;
+	display: flex;
+	align-items: center;
+	/* margin-right: 345px; */
+}
 
 .logo-header {
 	font-family: 'Raleway';
@@ -42,7 +48,9 @@ body footer{
 	line-height: 31px;
 	letter-spacing: 0.03em;
 	color: var(--first-text-color);
-	padding: 24px 93px 25px 215px;
+	display: block;
+	padding: 25px 0 25px 200px;
+	margin-right: 90px;
 }
 
 .logo-web {
@@ -54,10 +62,14 @@ body footer{
 	color: var(--second-text-color);
 }
 
+.header-item:not(:first-child){
+	margin-left: 50px;
+}
+
 .nav-link {
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16.41px;
+	line-height: 16px;
 	letter-spacing: 0.02em;
 	color: var(--first-text-color);
 }
@@ -69,6 +81,12 @@ body footer{
 	line-height: 16px;
 	letter-spacing: 0.02em;
 	color: var(--second-text-color);
+}
+
+.contacts-nav{
+	display: flex;
+	align-items: center;
+	margin: 0;
 }
 
 .link-contact {
@@ -87,6 +105,7 @@ body footer{
 	letter-spacing: 0.02em;
 	color: var(--second-text-color);
 }
+
 
 /* footer contats*/
 
