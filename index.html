@@ -7,7 +7,7 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 		rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+	<link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize">
 	<link rel="stylesheet" href="./css/style.css">
 	<title>Студія</title>
 </head>
@@ -15,21 +15,22 @@
 <body>
 	<!-- шапка -->
 	<header>
-		<nav>
-			<div class="header-container">
-			<a href="./index.html" class="logo-header"><span class="logo-web">Web</span>Studio</a>
-			<ul class="site-nav">
-				<li><a href="./index.html" class="nav-link">Студія</a></li>
-				<li><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
-				<li><a href="./index.html" class="nav-link">Контакти</a></li>
-			</ul>
-			</div>
-		</nav>
-		</nav>
-		<ul>
-			<li><a href="mailto:info@devstudio.com" class="link-contact">info@devstudio.com</a></li>
-			<li><a href="tel:+380961111111" class="link-contact">+38 096 111 11 11</a></li>
-		</ul>
+		<div class="container header-container">
+			<nav>
+				<div class="site-nav">
+					<a href="./index.html" class="logo-header"><span class="logo-web">Web</span>Studio</a>
+					<ul class="site-nav">
+						<li class="header-item"><a href="./index.html" class="nav-link">Студія</a></li>
+						<li class="header-item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+						<li class="header-item"><a href="./index.html" class="nav-link">Контакти</a></li>
+					</ul>
+					</nav>
+					<ul class="contacts-nav">
+						<li class="header-item"><a href="mailto:info@devstudio.com" class="link-contact">info@devstudio.com</a></li>
+						<li class="header-item"><a href="tel:+380961111111" class="link-contact">+38 096 111 11 11</a></li>
+					</ul>
+				</div>
+		</div>
 	</header>
 	<main>
 		<!-- hero -->
