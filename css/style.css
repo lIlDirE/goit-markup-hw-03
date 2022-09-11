@@ -30,17 +30,19 @@ body, footer, header, main{
 }
 
 .card-container{
-	/* width: 270px;
-	height: 370px; */
+
 	background-color: #ffffff;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
   /* Site nav */
 
 .header-container{
 	display: flex;
-	flex-direction: column;
 }
 
 .site-nav{
@@ -116,7 +118,6 @@ body, footer, header, main{
 
 /* main index.html*/
 
-
 .main-container{
 	background-color: var(--hero-text-color);
 }
@@ -186,8 +187,6 @@ body, footer, header, main{
 	margin-top: 95px;
 	width: 1170px;
 	height: 390px;
-	/* margin-bottom: 95px; */
-
 }
 
 .main-h2{
@@ -213,6 +212,7 @@ body, footer, header, main{
 }
 
 .ourteam-container{
+	height: 650px;
 	margin-top: 95px;
 	background-color: var(--four-text-color);
 
@@ -229,26 +229,31 @@ body, footer, header, main{
 	margin-left: 30px;
 }
 
-/* .card-container:not(.first-child){
-	margin-left: 30px;
-} */
-/* footer contats*/
+/* footer */
+
+.footer{
+	height: 250px;
+	background-color: var(--hero-text-color);
+	color: var(--four-text-color);
+}
 
 address {
+	margin-top: 20px;
+	margin-left: 215px;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
-	/*color: #FFFFFF;*/
 }
 
 .footer-contacts-item {
+	margin-top: 10px;
+	margin-left: 215px;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
 	letter-spacing: 0.03em;
 	color: var(--third-text-color);
-	/* color: rgba(255, 255, 255, 0.6); */
 }
 
 .footer-contacts-item:hover, 
@@ -265,7 +270,9 @@ address {
 	font-size: 26px;
 	line-height: 31px;
 	letter-spacing: 0.03em;
-	color: var(--first-text-color);
+	color: var(--four-text-color);
+	padding: 60px 160px 0px 215px;
+	display: flex;	
 }
 
 /* filter-buttons */
