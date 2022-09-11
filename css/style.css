@@ -10,7 +10,7 @@ a {
 	text-decoration: none;
 }
 
-ul {
+ul, h2, h3, p, div{
 	list-style:none;
 	padding: 0;
 	margin: 0;
@@ -28,11 +28,19 @@ body, footer, header, main{
 	padding-right: 15px;
 	outline: 1px solid black;
 }
+
+.card-container{
+	/* width: 270px;
+	height: 370px; */
+	background-color: #ffffff;
+	display: flex;
+	justify-content: center;
+}
   /* Site nav */
 
 .header-container{
 	display: flex;
-	align-items: center;
+	flex-direction: column;
 }
 
 .site-nav{
@@ -141,6 +149,89 @@ body, footer, header, main{
 	color: var(--four-text-color);
 
 }
+.main-about-text{
+	width: 270px;
+}
+
+.main-about-text:not(:first-child){
+	margin-left: 30px;
+}
+
+.main-about{
+	margin-top: 95px;
+	width: 1170px;
+	min-height: 100px;
+	align-items: flex-start;
+	display: flex;
+	flex-direction: row;
+}
+
+.main-about-text-h2{
+	font-weight: 700;
+	line-height: 16px;
+	font-size: 14px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.main-about-text-p2{
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+}
+
+.main-ourwork-container{
+	margin-top: 95px;
+	width: 1170px;
+	height: 390px;
+	/* margin-bottom: 95px; */
+
+}
+
+.main-h2{
+	font-weight: 700;
+	font-size: 36px;
+	letter-spacing: 0.03em;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.main-ourwork-ul{
+	display: flex;
+
+}
+
+.main-ourwork-li{
+	width: calc((100% - 60px) /3);
+}
+
+.main-ourwork-li:not(:first-child) {
+	margin-left: 30px;
+}
+
+.ourteam-container{
+	margin-top: 95px;
+	background-color: var(--four-text-color);
+
+}
+
+.ourteam-ul{
+	display: flex;
+	align-items: center;
+	padding: 0;
+	justify-content: center;
+}
+
+.ourteam-li:not(:first-child){
+	margin-left: 30px;
+}
+
+/* .card-container:not(.first-child){
+	margin-left: 30px;
+} */
 /* footer contats*/
 
 address {
@@ -167,7 +258,6 @@ address {
 	font-size: 14px;
 	color: var(--second-text-color);
 }
-
 
 .logo-footer {
 	font-family: 'Raleway';
