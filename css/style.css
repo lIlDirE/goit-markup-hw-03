@@ -3,6 +3,7 @@
 	--second-text-color:#2196F3;
 	--third-text-color: #757575;
 	--four-text-color:  #F5F4FA;
+	--hero-text-color:  #2F303A;
   }
 
 a {
@@ -15,7 +16,7 @@ ul {
 	margin: 0;
 }
 
-body, footer, header{
+body, footer, header, main{
 	font-family: 'Roboto', sans-serif;
 	color: var(--first-text-color);
 }
@@ -105,7 +106,41 @@ body, footer, header{
 	color: var(--second-text-color);
 }
 
+/* main index.html*/
 
+
+.main-container{
+	background-color: var(--hero-text-color);
+}
+.hero-container{
+	height: 600px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.hero-button{
+	position: absolute;
+	width: 216px;
+	height: 50px;
+	margin-top: 350px;
+	background: var(--second-text-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+
+.hero-text{
+	margin-top: 200px;
+	width: 700px;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 60px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--four-text-color);
+
+}
 /* footer contats*/
 
 address {
