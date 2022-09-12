@@ -30,7 +30,7 @@ img{
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
-	outline: 1px solid black;
+	/* outline: 1px solid black; */
 }
 
 .card-container{
@@ -47,6 +47,7 @@ img{
 
 .header-container{
 	display: flex;
+	border: 1px solid #ECECEC;
 }
 
 .site-nav{
@@ -281,7 +282,20 @@ address {
 
 /* filter-buttons */
 
+.filter {
+	width: 575px;
+	display: flex;
+	align-items: center;
+	margin-top: 95px;
+	margin-left: auto;
+    margin-right: auto;
+	justify-content: center;
+	gap: 8px;
+}
+
 .filter-buttons {
+	padding: 5px 20px;
+	height: 40px;
 	box-sizing: border-box;
 	background: var(--four-text-color);
 	border-radius: 4px;
@@ -291,6 +305,7 @@ address {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--first-text-color);
+	
 }
 
 .filter-buttons:hover,
@@ -308,8 +323,8 @@ address {
 address {
 	font-style: inherit;
 }
-
-/* portofolio.html text */
+ 
+/* portofolio.html galery*/
 
 .section{
 	padding-top: 95px;
@@ -323,10 +338,8 @@ address {
 	padding: 0 15px;
 	display: flex;
 	flex-wrap: wrap;
-	outline: 1px solid black;
 	justify-content: flex-start;
 	gap: 30px;
-
 }
 
 .gallery-item h1 {
@@ -343,14 +356,12 @@ address {
 	letter-spacing: 0.03em;
 }
 
-
 .gallery-item{
 	width: 370px;
 }
 
 .gallery-wrapper{
 	padding: 20px 24px;
-	border: 1px solid red;
+	border: 1px solid #EEEEEE;
 	border-top: none;
-
 }
