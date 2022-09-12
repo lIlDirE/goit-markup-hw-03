@@ -48,6 +48,8 @@ img {
 	align-items: center;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
+	width: 270px;
+	height: 370px;
 }
 
 /* Site nav */
@@ -149,6 +151,28 @@ img {
 	width: 215px;
 	height: 50px;
 	margin-top: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	background: var(--four-text-color);
+	/* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15); */
+	border-radius: 4px;
+	color: var(--first-text-color);
+
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	/* display: flex;
+	align-items: center;
+	text-align: center; */
+	letter-spacing: 0.06em;
+}
+
+.hero-button:hover, 
+.hero-button:focus {
+	position: absolute;
+	width: 215px;
+	height: 50px;
+	margin-top: 350px;
 	background: var(--second-text-color);
 	/* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15); */
 	border-radius: 4px;
@@ -246,6 +270,13 @@ img {
 	margin-left: 30px;
 }
 
+.ourteam-text-h3{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.ourteam-text-p{
+	margin-bottom: 30px;
+}
 /* footer */
 
 .footer {
@@ -339,8 +370,9 @@ address {
 /* portofolio.html galery*/
 
 .section {
-	padding-top: 95px;
+	padding-top: 35px;
 	padding-bottom: 95px;
+	
 }
 
 .gallery {
@@ -352,9 +384,10 @@ address {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	gap: 30px;
+	/* outline: 1px solid black; */
 }
 
-.gallery-item h1 {
+.gallery-item h2 {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 36px;
@@ -370,10 +403,13 @@ address {
 
 .gallery-item {
 	width: 370px;
+	height: 405px;
+	border: 1px solid #EEEEEE;
+	border-top: none;
 }
 
 .gallery-wrapper {
-	padding: 20px 24px;
-	border: 1px solid #EEEEEE;
-	border-top: none;
+	width: 322px;
+	height: 70px;
+	margin: 20px 24px;
 }
