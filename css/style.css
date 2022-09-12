@@ -311,6 +311,24 @@ address {
 
 /* portofolio.html text */
 
+.section{
+	padding-top: 95px;
+	padding-bottom: 95px;
+}
+
+.gallery{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 15px;
+	display: flex;
+	flex-wrap: wrap;
+	outline: 1px solid black;
+	justify-content: flex-start;
+	gap: 30px;
+
+}
+
 .gallery-item h1 {
 	font-weight: 700;
 	font-size: 18px;
