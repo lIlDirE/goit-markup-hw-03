@@ -21,6 +21,10 @@ body, footer, header, main{
 	color: var(--first-text-color);
 }
 
+img{
+	display: block;
+}
+
 .container{
 	width: 1600px;
 	margin: 0 auto;
@@ -307,16 +311,28 @@ address {
 
 /* portofolio.html text */
 
-.projects h2 {
+.gallery-item h1 {
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 36px;
 	letter-spacing: 0.06em;
 }
 
-.projects p {
+.gallery-item p {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 30px;
 	letter-spacing: 0.03em;
+}
+
+
+.gallery-item{
+	width: 370px;
+}
+
+.gallery-wrapper{
+	padding: 20px 24px;
+	border: 1px solid red;
+	border-top: none;
+
 }
